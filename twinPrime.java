@@ -33,7 +33,7 @@ class Main {
             return;
         }
         
-        
+         
         if(prime(s) && prime(n)){
             System.out.println("(" + n +"," + s + ")");
             System.out.println(" is twin prime");
