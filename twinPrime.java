@@ -11,6 +11,7 @@ class Main {
             System.out.println("number is prime");
             return true;
         }
+         if(n % 2 == 0) return false;
         for(int i = 3;i<n-1;i++){
             if(n%i == 0){
                 
